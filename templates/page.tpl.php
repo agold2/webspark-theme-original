@@ -86,7 +86,7 @@
 
       <?php if ($site_name): ?>
         <div class="section hidden-xs" id="site-name-desktop">
-          <a href="<?php echo url('<front>'); ?>">
+          <a href="<?php print $front_page; ?>">
           <h1 class='site-title'>
             <span class='first-word'><?php print $site_name_first; ?> </span>
             <?php print $site_name_last; ?>
